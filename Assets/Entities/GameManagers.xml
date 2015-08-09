@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+	<name>GameManagers</name>
+	<visible>true</visible>
+	
+	<!-- Components -->
+	<components>
+		
+		<component> 
+			<name>BulletManager</name>
+		</component>
+
+		<component>
+			<name>EnemyFighterManager</name>
+		</component>
+
+	</components>
+	
+</entity>

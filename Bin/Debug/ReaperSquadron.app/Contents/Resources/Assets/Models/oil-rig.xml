@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model>
+	<name>oil-rig</name>
+	<filename>oil-rig.obj</filename>
+	<!-- <scale_x> <scale_y> <scale_z> -->
+	<rotation_x>90</rotation_x>
+	<!-- <rotation_y> <rotation_z> -->
+</model>

@@ -1,0 +1,8 @@
+
+#ifndef CAFFEINE_VERSION_INCLUDED
+#define CAFFEINE_VERSION_INCLDUED
+
+#define CAFF_MAJOR_VERSION 0
+#define CAFF_MINOR_VERSION 1
+
+#endif // include guard

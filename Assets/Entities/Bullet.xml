@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+	<name>Bullet</name>
+	<visible>true</visible>
+	
+	<!-- Components -->
+	<components>
+		
+		<component>
+			<name>Transform</name>
+		</component>
+
+		<component>
+			<name>Physics</name>
+		</component>
+
+		<component>
+			<name>BulletModel</name>
+		</component>
+
+		<component>
+			<name>BulletView</name>
+		</component>
+
+		<component>
+			<name>BulletController</name>
+		</component>
+
+	</components>
+	
+</entity>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+
+	<window>
+		<width>1280</width>
+		<height>720</height>
+		<fullscreen>false</fullscreen>
+		<app_title>The Reaper Squadron</app_title>
+	</window>
+
+	<renderer>
+		<color_buffer>
+			<red_bits>3</red_bits>
+			<green_bits>3</green_bits>
+			<blue_bits>2</blue_bits>
+			<alpha_bits>0</alpha_bits>
+		</color_buffer>
+
+		<v_sync>true</v_sync>
+
+		<depth_size>24</depth_size>
+	</renderer>
+
+	<systems>
+		<states>
+			<start_state>InitState</start_state>
+		</states>
+
+		<events>
+			<mem_pool>
+				<in_use>true</in_use>
+				<msg_size>128</msg_size>
+				<msg_slots>128</msg_slots>
+				<flexible>true</flexible>
+			</mem_pool>
+		</events>
+
+		<logging>
+			<enabled>true</enabled>
+			<type>Console</type>
+			<level>Everything</level>
+			<directory></directory>
+		</logging>
+	</systems>
+
+	<entities>
+		<hot_loading>true</hot_loading>
+		<directory>Entities</directory>
+		<extension>xml</extension>
+	</entities>
+
+	<textures>
+		<hot_loading>false</hot_loading>
+		<directory>Textures/</directory>
+		<extension>xml</extension>
+	</textures>
+
+	<models>
+		<directory>Models/</directory>
+		<extension>xml</extension>
+		<hot_loading>true</hot_loading>
+		<!--<extension>model</extension> -->
+	</models>
+
+	<audio>
+		<context>SDL</context>
+		<hot_loading>false</hot_loading>
+		<directory>Audio</directory>
+	</audio>
+
+	<shaders>
+		<directory>Shaders</directory>
+		<extension>shd</extension>
+		<hot_loading>true</hot_loading> <!-- No support exists yet! -->
+	</shaders>
+
+</application>

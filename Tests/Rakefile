@@ -1,0 +1,85 @@
+CC 			= " clang++ "
+INC_DIRS 	= " -I../Includes -I../Source "
+FLAGS 		= " -Wall -Wpedantic -std=c++11 -stdlib=libc++ "
+OUT			= "UnitTest"
+SRC_DIR		= "../Source/Caffeine/"
+
+
+task :test, :file do |t, args|
+
+	sh CC + INC_DIRS + FLAGS + "#{args.file}.cpp " + "-o #{OUT}"
+	sh "./#{OUT}"
+
+end
+
+
+task :entity_test do |t, args|
+
+	test_file 	= "EntityComponentTest.cpp "
+	files 		= "Entity/Entity.cpp Entity/Component.cpp"
+	
+	sh "clear"
+	sh CC + INC_DIRS + FLAGS + test_file + files.split.map {|f| "#{SRC_DIR}#{f}" }.join(" ") + " -o #{OUT}"
+	sh "./#{OUT}"
+
+end
+
+
+task :simple_entity_test do |t, args|
+
+	test_file 	= "SimpleEntityTest.cpp "
+	files 		= "Entity/SimpleEntity.cpp Entity/Component.cpp"
+
+	sh CC + INC_DIRS + FLAGS + test_file + files.split.map {|f| "#{SRC_DIR}#{f}" }.join(" ") + " -o #{OUT}"
+	sh "clear"
+	sh "./#{OUT}"
+
+end
+
+
+task :component_test do |t, args|
+
+	test_file 	= "ComponentTest.cpp "
+	files 		= "Entity/SimpleEntity.cpp Entity/Component.cpp"
+	
+	sh "clear"
+	sh CC + INC_DIRS + FLAGS + test_file + files.split.map {|f| "#{SRC_DIR}#{f}" }.join(" ") + " -o #{OUT}"
+	sh "./#{OUT}"
+
+end
+
+
+task :transform_test do |t, args|
+
+	test_file 	= "TransformTest.cpp "
+	files 		= "Components/TransformComponent.cpp Entity/Component.cpp"
+
+	sh "clear"
+	sh CC + INC_DIRS + FLAGS + test_file + files.split.map {|f| "#{SRC_DIR}#{f}" }.join(" ") + " -o #{OUT}"
+	sh "./#{OUT}"
+
+end
+
+
+task :math_test do |t, args|
+
+	test_file 	= "MathTest.cpp "
+	files 		= "Math/Math.cpp"
+
+	sh "clear"
+	sh CC + INC_DIRS + FLAGS + test_file + files.split.map {|f| "#{SRC_DIR}#{f}" }.join(" ") + " -o #{OUT}"
+	sh "./#{OUT}"
+
+end
+
+
+task :event_mgr_test do |t, args|
+
+	test_file = "EventManagerTest.cpp "
+	files = "Systems/EventManager.cpp Systems/Event.cpp"
+
+	sh "clear"
+	sh CC + INC_DIRS + FLAGS + test_file + files.split.map {|f| "#{SRC_DIR}#{f}" }.join(" ") + " -o #{OUT}"
+	sh "./#{OUT}"
+
+end

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98E399A6-26EF-4808-86CC-1EB2E0A59FBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ReaperSquadron</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9d834250-7c37-4bcb-867c-aee3ec1c5118++505</key>
+		<string>https://nullentity.svn.beanstalkapp.com/reaper-squadron/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Projects/Xcode/ReaperSquadron/ReaperSquadron.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9d834250-7c37-4bcb-867c-aee3ec1c5118++505</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>9d834250-7c37-4bcb-867c-aee3ec1c5118++505</key>
+		<string>https://nullentity.svn.beanstalkapp.com/reaper-squadron</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://nullentity.svn.beanstalkapp.com/reaper-squadron/trunk/Projects/Xcode/ReaperSquadron/ReaperSquadron.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9d834250-7c37-4bcb-867c-aee3ec1c5118++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9d834250-7c37-4bcb-867c-aee3ec1c5118++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>reaper-squadron</string>
+		</dict>
+	</array>
+</dict>
+</plist>

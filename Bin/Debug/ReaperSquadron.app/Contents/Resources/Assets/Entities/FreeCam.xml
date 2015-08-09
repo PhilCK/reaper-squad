@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+	<name>FreeCam</name>
+	<visible>true</visible>
+
+	<!-- Components -->
+	<components>
+
+		<component>
+			<name>BasicFPSCam</name>
+		</component>		
+
+	</components>
+	
+</entity>
